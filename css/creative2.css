@@ -486,20 +486,41 @@ font-family: 'Marck Script', cursive;
 .dotted li {
 margin-bottom: 15px;
 border-bottom: 2px rgba(64, 75, 81, 0.8) dotted;
-font-size: 26px;
-line-height: 1;
+font-size: 10px;
+line-height: 1.25;
 }
 .dotted li span:nth-child(odd) {
 padding-right: 6px; 
-color: rgba(240,95,64,1);
+color: rgba(12,124,140,0.95);
 }
 .dotted li span:nth-child(even) {
 float: right; 
 padding-left: 6px;
-color: rgba(0,0,0,0.8);
+color: rgba(12,124,140,0.95);
 }
 .dotted span {
     background-color: white;
 position: relative;
 bottom: -7px;
 }
+@media(min-width:620px) {
+    .dotted li {
+        font-size: 12px;
+    }
+}
+@media(min-width:768px) {
+    .dotted li {
+        font-size: 16px;
+    }
+}
+@media(min-width:992px) {
+    .dotted li {
+        font-size: 20px;
+    }
+}
+@media(min-width:1280px) {
+    .dotted li {
+        font-size: 26px;
+    }
+}
+
