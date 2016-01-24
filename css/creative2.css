@@ -491,15 +491,15 @@ line-height: 1;
 }
 .dotted li span:nth-child(odd) {
 padding-right: 6px; 
-color: #35D1CE;
+color: rgba(240,95,64,1);
 }
 .dotted li span:nth-child(even) {
 float: right; 
 padding-left: 6px;
-color: #35D1CE;
+color: rgba(0,0,0,0.8);
 }
 .dotted span {
-    background-color: #404B51; opacity: 0.8;
+    background-color: white;
 position: relative;
 bottom: -7px;
 }
